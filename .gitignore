@@ -1,0 +1,87 @@
+# Build Folders
+bin/
+obj/
+out/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+.history/
+
+# Resposta de pacote NuGet
+*.nupkg
+*.snupkg
+.nuget/packages/
+
+# Arquivos de publicação
+publish/
+*.Publish.xml
+
+# Logs e cobertura de teste
+*.log
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# Ferramentas de build
+*.pidb
+*.vcxproj.user
+*.psess
+*.vsp
+*.vspscc
+*.vssscc
+
+# Configurações de IIS Express
+/.vs/*/applicationhost.config
+/.vs/*/iissettings.json
+
+# Configurações de Docker
+docker-compose.override.yml
+**/docker-compose.*.yml
+**/Dockerfile*
+
+# Arquivos de cache
+*.cache
+*.bak
+*.backup
+*.tmp
+
+# Arquivos de Mac/Linux
+*~
+*.swp
+.DS_Store
+
+# Certificados locais
+*.pfx
+*.key
+*.cer
+
+# Publicação de Azure Functions
+local.settings.json
+
+# User secrets (se usar Secret Manager)
+secrets.json
+
+# EF Core Migrations (se quiser ignorar binários gerados)
+Migrations/*.Designer.cs
+
+# Unity (caso use no mesmo repositório)
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+
+# Pacotes NPM (caso tenha frontend)
+node_modules/
